@@ -120,7 +120,7 @@ You can also make a graph private using the **make_graph_private** method.
 Deleting a graph on GraphSpace
 ------------------------------
 
-You can also delete your graph anytime using the **update_graph** method.
+You can also delete your graph anytime using the **delete_graph** method.
 
 >>> print graphspace.delete_graph('My Sample Graph')
 >>> assert graphspace.get_graph('My Sample Graph') is None
